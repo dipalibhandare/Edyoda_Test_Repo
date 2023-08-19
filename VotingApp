@@ -26,4 +26,11 @@ vote     NodePort    10.105.169.26   <none>        5000:31000/TCP   79m
 
 We can see NodePort has been assigned to result and voting pod.
 
+After deleting vote pod still was able to see results, application ran properly. RS took responsibity to ran pod.
+Even after deleting worker pod application ran.
+After deleting db pod also I am able to see application running.
+
+Kept logs in log file and attaching screenshot also.
+
+
 
