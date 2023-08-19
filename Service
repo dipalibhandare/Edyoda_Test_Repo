@@ -1,4 +1,4 @@
-1. As service used is Nodeport means it has created a port that can be accessible over a browser or publically, and also cluster IP must have created.
+1. As service used is Nodeport means it has created a port that can be accessible over a browser or with curl or publically, and also cluster IP must have created.
 2. I would check whether replica set file has correctly written or ran or not. To run service there must be pods created.
 3. while accessing port pls check whether public IP is used or cluster IP. With Cluster Ip you cannot access or produce any output .
 4. Also check Nodeport is given correct.
